@@ -2,7 +2,7 @@
 
 Automatically assigns a unique color to each tmux window's status bar. Colors change when you create or navigate between windows — no configuration required.
 
-![3 tmux windows each with a distinct status bar color]
+![3 tmux windows each with a distinct status bar color](docs/demo.gif)
 
 ## How it works
 
