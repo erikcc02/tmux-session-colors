@@ -2,8 +2,6 @@
 
 Automatically assigns a unique color to each tmux window's status bar. Colors change when you create or navigate between windows with no configuration required.
 
-![3 tmux windows each with a distinct status bar color](docs/demo.gif)
-
 ## How it works
 
 Each window gets a color derived from its ID using the [golden angle](https://en.wikipedia.org/wiki/Golden_angle) (~222°), which guarantees maximum perceptual distance between consecutive windows on the color wheel. The text color (black or white) is chosen automatically for contrast.
